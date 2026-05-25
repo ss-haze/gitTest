@@ -1,14 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-
-int StrToInt(char strPtr[]){
-int total=0;
-for (int i=0; strPtr[i]!='\0'; i++){
-total = total *10 + (strPtr[i]-'0');
-}
-return total;
-}
+#include "strToInt.h"
 
 
 int main (void) {
